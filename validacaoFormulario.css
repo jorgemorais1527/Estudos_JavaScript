@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form-group {
+    margin-bottom: 20px;
+  }
+  .error-message{
+    color: red;
+    font-size: 12px;
+    display: none;
+  }
+  body{
+    color: #fff;
+    margin: 20px 350px;
+    
+  }
+  
+  header {
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    text-align: center;
+    background-color:#0E5299 ;
+  }
+  main{
+    margin: 0;
+    padding: 20px;
+    
+    background-color:#0984D9;
+  }
+  button {
+    position: relative;
+    left: 10%;
+    font-weight: 400;
+    padding: 2px 10px;
+  }
+ 
+  
+  input {
+    padding: 2.5px;
+  }

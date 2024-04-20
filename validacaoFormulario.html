@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Estudos_JavaScript/validacaoFormulario.css">
+
+  </head>
+  <body>
+    <header>
+      <h1>Validação de formulário</h1>
+    </header>
+    <main>
+      <section>
+        <form id="meuFormulario">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" class="obrigatorio">
+            <span class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" class="obrigatorio">
+            <span class="error-message"></span>
+          </div>
+          <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" class="obrigatorio">
+            <span class="error-message"></span>
+          </div>
+          <div class="form-group" id="senhaObr">
+            <label for="senha-obrigatoria">Confirmar Senha:</label>
+            <input type="password" id="senha-obrigatoria" class="obrigatorio">
+            <span class="error-message"></span>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+   
+
+    <script src="Estudos_JavaScript/validacaoFormulario.js"></script>
+  </body>
+</html>
