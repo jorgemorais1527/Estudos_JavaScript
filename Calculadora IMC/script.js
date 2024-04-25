@@ -38,5 +38,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     resultadoElement.innerHTML = `<p> ${nome}, seu IMC é ${imc.toFixed(2)}.</p>
      <p>Você está na categoria: ${categoria}</p>`;
+
+     document.getElementById('categoria').value = categoria
+
+     let dados = new FormData(formulario)
+
+     for(let [chave, valor] of dados.entries()){
+      console.log(chave + ":" + valor)
+     }
   });
 });
